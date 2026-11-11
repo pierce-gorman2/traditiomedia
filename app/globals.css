@@ -13,6 +13,9 @@
 
 html { scroll-behavior: smooth; }
 
+/* Keep anchored sections from hiding under the fixed top bar */
+section[id] { scroll-margin-top: 6rem; }
+
 body {
   background-color: var(--color-ink);
   color: var(--color-paper);

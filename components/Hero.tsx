@@ -6,7 +6,7 @@ export default function Hero() {
     <section
       id="top"
       aria-labelledby="hero-title"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 text-center"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pb-16 pt-32 text-center"
     >
       {/* soft golden glow */}
       <div

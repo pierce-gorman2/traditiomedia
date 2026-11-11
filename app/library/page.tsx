@@ -9,7 +9,7 @@ export default function LibraryPage() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main className="pt-28">
         <Works />
       </main>
       <Footer />

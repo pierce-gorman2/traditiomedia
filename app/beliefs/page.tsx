@@ -9,7 +9,7 @@ export default function BeliefsPage() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main className="pt-28">
         <Beliefs />
       </main>
       <Footer />

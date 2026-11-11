@@ -11,7 +11,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="absolute inset-x-0 top-0 z-10 px-6 py-6 sm:py-8">
+    <header className="fixed inset-x-0 top-0 z-40 border-b border-edge bg-ink/85 px-6 py-4 backdrop-blur-md sm:py-5">
       <nav aria-label="Primary" className="mx-auto flex max-w-6xl flex-col items-center gap-5 sm:flex-row sm:justify-between">
         <Link href="/" className="flex items-center gap-3 font-serif text-xl tracking-wide">
           <Image src="/logo.png" alt="" width={204} height={443} className="h-9 w-auto" />
