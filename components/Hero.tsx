@@ -30,10 +30,10 @@ export default function Hero() {
         <div aria-hidden className="mx-auto my-10 h-px w-24 bg-gold" />
         <p className="font-serif text-2xl italic text-gold sm:text-4xl">{site.slogan}</p>
         <a
-          href="#mission"
+          href="#organizations"
           className="mt-12 inline-block border border-gold px-8 py-3 text-xs font-medium uppercase tracking-[0.25em] text-gold transition-colors hover:bg-gold hover:text-ink"
         >
-          Our Mission
+          Our Organizations
         </a>
       </div>
     </section>

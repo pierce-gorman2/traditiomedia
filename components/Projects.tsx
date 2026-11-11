@@ -3,7 +3,7 @@ import { Eyebrow, Section } from "./Section";
 
 export default function Projects() {
   return (
-    <Section id="projects" labelledBy="projects-title">
+    <Section id="organizations" labelledBy="projects-title">
       <Eyebrow>{projects.eyebrow}</Eyebrow>
       <h2 id="projects-title" className="max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">
         {projects.heading}

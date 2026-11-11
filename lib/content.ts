@@ -16,7 +16,7 @@ export const mission = {
   heading: "Made to be handed down.",
   paragraphs: [
     "Most media is built for this week. We build for the next millennium. Every podcast we record and every book we write is measured against a single question: will this still matter in a thousand years?",
-    "That standard shapes everything: what we choose to say, how carefully we say it, and where we refuse to be passive. We are not building a brand. We are building toward a country, a legacy, and communities that our children's children are proud to inherit.",
+    "That standard shapes everything: what we choose to say, how carefully we say it, and where we refuse to be silent. We are not building a brand. We are building toward a country, a legacy, and communities that our children's children are proud to inherit.",
   ],
   pillars: [
     { title: "Rooted", text: "Anchored in truth that does not change with the season." },
@@ -50,7 +50,7 @@ export type Project = {
 };
 
 export const projects: { eyebrow: string; heading: string; items: Project[] } = {
-  eyebrow: "Our Work",
+  eyebrow: "Our Organizations",
   heading: "Two organizations. One long vision.",
   items: [
     {
