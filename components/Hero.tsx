@@ -18,8 +18,8 @@ export default function Hero() {
         <Image
           src="/logo.png"
           alt=""
-          width={296}
-          height={640}
+          width={204}
+          height={443}
           priority
           className="mx-auto mb-8 h-40 w-auto sm:h-52"
         />

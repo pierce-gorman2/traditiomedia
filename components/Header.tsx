@@ -13,7 +13,7 @@ export default function Header() {
     <header className="absolute inset-x-0 top-0 z-10 px-6 py-8">
       <nav aria-label="Primary" className="mx-auto flex max-w-6xl items-center justify-between">
         <a href="#top" className="flex items-center gap-3 font-serif text-xl tracking-wide">
-          <Image src="/logo.png" alt="" width={296} height={640} className="h-9 w-auto" />
+          <Image src="/logo.png" alt="" width={204} height={443} className="h-9 w-auto" />
           {site.name}
         </a>
         <ul className="hidden gap-8 text-sm text-mute sm:flex">
